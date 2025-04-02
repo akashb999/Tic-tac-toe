@@ -1,0 +1,85 @@
+  transition: text 0.5s;
+  font-family: 'Poppins', sans-serif;
+   grid-area: win;
+   width: 250px; 
+  }
+   
+   
+    .restart{
+    background-color: red;
+    color: white;
+    width: 100px;
+      height:50px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50px; 
+    transition: background-color 0.15s,color 0.15s;
+    cursor: pointer;
+      grid-area: reset;
+    }
+    .restart:active{
+    background-color: lightgreen;
+    color: black;
+    }
+  .toggle-container{
+  background-color: black; 
+  height: 30px;
+  width: 65px;
+  border-radius: 15px;
+    grid-area: toggle;
+    justify-self: end;
+    align-self: end;
+  }
+.toggle {
+    width: 60px;
+    height: 30px;
+    background: lightgray;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease;
+    background-color: black;
+ }
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: rgb(26,155,235);
+    border-radius: 50%;
+    position: absolute;
+    top:2.5px;
+    left: 3px;
+    transition: all 0.3s ease;
+}
+.dark-mode {
+    background-color: black;
+}
+.dark-container{
+background: black;
+}
+.dark-text{
+  color:rgb(26,155,235);
+  }
+ .dark-head{
+ color: white;
+ }
+ .dark-reset{
+ border-color:white;
+ }
+ .container.dark button{
+ color: white;
+ }
+.dark-mode .toggle {
+    background: rgb(26,155,235);
+}
+.dark-mode .circle {
+    left: 32px;
+    background: black;
+}
+.dark-border{
+border: solid white 5px;
+}
+.light-border{
+border: solid black 5px;
+  
+}
